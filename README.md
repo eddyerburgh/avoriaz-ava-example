@@ -1,4 +1,4 @@
-# avoriaz-mocha-example
+# avoriaz-ava-example
 
 > an example project using avoriaz and mocha-webpack to test Vue components
 
