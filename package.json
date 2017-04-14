@@ -1,0 +1,41 @@
+{
+  "name": "avoriaz-mocha-example",
+  "version": "1.0.0",
+  "description": "example project using avoriaz with mocha-webpack to test Vue.js components",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "lint:fix": "eslint src test --ext .js,.vue -- --fix",
+    "test": "ava test/*.spec.js"
+  },
+  "ava": {
+    "require": [
+      "./test/helpers/.setup.js"
+    ]
+  },
+  "author": "Edd Yerburgh",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "avoriaz": "^1.9.0",
+    "babel-core": "^6.21.0",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "browser-env": "^2.0.30",
+    "css-loader": "^0.26.1",
+    "eslint": "^3.13.1",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-html": "^1.7.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-react": "^6.9.0",
+    "vue-loader": "^10.0.2",
+    "vue-node": "^1.1.0",
+    "vue-template-compiler": "^2.1.8",
+    "webpack": "^2.4.1"
+  },
+  "dependencies": {
+    "vue": "^2.1.8"
+  }
+}
