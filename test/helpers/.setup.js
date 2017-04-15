@@ -1,14 +1,13 @@
 const browserEnv = require('browser-env');
 const hooks = require('require-extension-hooks');
-// const hook = require('vue-node');
-// const { join } = require('path');
 
 // Setup a fake browser environment
 browserEnv();
-// Pass an absolute path to your webpack configuration to the hook function.
-// hook(join(__dirname, './webpack.config.js'));
+
+// Transpile .vue files
 hooks('vue').plugin('vue').push();
 
+// Transpile import/export statements as node STILL can't parse these
 hooks(['vue', 'js']).push(function ({content, cancel}) {
   if (content.indexOf('export ') < 0 && content.indexOf('import ') < 0){
     return cancel();
