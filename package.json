@@ -1,7 +1,7 @@
 {
-  "name": "avoriaz-mocha-example",
+  "name": "avoriaz-ava-example",
   "version": "1.0.0",
-  "description": "example project using avoriaz with mocha-webpack to test Vue.js components",
+  "description": "example project using avoriaz with ava-webpack to test Vue.js components",
   "main": ".eslintrc.js",
   "scripts": {
     "lint:fix": "eslint src test --ext .js,.vue -- --fix",
