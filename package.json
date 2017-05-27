@@ -9,7 +9,7 @@
   },
   "ava": {
     "require": [
-      "./test/helpers/.setup.js"
+      "./test/.setup.js"
     ]
   },
   "author": "Edd Yerburgh",
@@ -30,12 +30,14 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^3.0.2",
     "eslint-plugin-react": "^6.9.0",
+    "require-extension-hooks": "^0.2.0",
+    "require-extension-hooks-babel": "^0.1.1",
+    "require-extension-hooks-vue": "^0.3.1",
     "vue-loader": "^11.3.4",
-    "vue-node": "^1.1.0",
+    "vue-template-compiler": "^2.2.6",
     "webpack": "^2.4.1"
   },
   "dependencies": {
-    "vue": "^2.2.6",
-    "vue-template-compiler": "^2.2.6"
+    "vue": "^2.2.6"
   }
 }
