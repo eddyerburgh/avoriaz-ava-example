@@ -12,8 +12,6 @@
 </template>
 
 <script>
-import { baz } from '../vars.js'
-
 export default {
   name: 'bar',
 };
