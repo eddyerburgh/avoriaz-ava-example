@@ -4,7 +4,7 @@
   "description": "example project using avoriaz with mocha-webpack to test Vue.js components",
   "main": ".eslintrc.js",
   "scripts": {
-    "lint:fix": "eslint src test --ext .js,.vue -- --fix",
+    "lint:fix": "standard src test --ext .js,.vue -- --fix",
     "test": "ava test/*.spec.js"
   },
   "ava": {
@@ -30,6 +30,8 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^3.0.2",
     "eslint-plugin-react": "^6.9.0",
+    "jsdom": "^11.0.0",
+    "standard": "^10.0.2",
     "vue-loader": "^11.3.4",
     "vue-node": "^1.1.0",
     "webpack": "^2.4.1"
