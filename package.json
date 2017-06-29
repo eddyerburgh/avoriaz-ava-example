@@ -26,8 +26,8 @@
   "author": "Edd Yerburgh",
   "license": "MIT",
   "devDependencies": {
-    "ava": "^0.19.1",
-    "avoriaz": "^1.11.1",
+    "ava": "^0.20.0",
+    "avoriaz": "^2.4.0",
     "babel-core": "^6.21.0",
     "babel-eslint": "^7.1.1",
     "babel-loader": "^6.2.10",
