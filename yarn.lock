@@ -391,7 +391,7 @@ ava@^0.20.0:
     unique-temp-dir "^1.0.0"
     update-notifier "^2.1.0"
 
-avoriaz@^2.4.0:
+avoriaz@^2.5.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/avoriaz/-/avoriaz-2.5.0.tgz#ef9ebba161a1ec60beb578a7ce906062808752d3"
   dependencies:

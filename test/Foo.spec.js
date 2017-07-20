@@ -22,7 +22,7 @@ test('h1 text changes when button is clicked', (t) => {
 
   const wrapper = mount(Foo);
   const button = wrapper.find('#change-message')[0];
-  button.dispatch('click');
+  button.trigger('click');
   const h1Text = wrapper.find('h1')[0].text();
 
   t.is(h1Text, expectedMessage);
