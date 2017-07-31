@@ -11,7 +11,7 @@ node_modules/
 # Log files
 *.log
 reports
-coverage
+.nyc_output
 
 # Build
 dist
